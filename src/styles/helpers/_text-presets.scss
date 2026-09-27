@@ -1,0 +1,122 @@
+@use 'functions' as *;
+
+@mixin text-preset-1 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 700;
+  font-size: rem(52);
+  line-height: 140%;
+  letter-spacing: rem(-2);
+}
+
+@mixin text-preset-1-mobile {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 700;
+  font-size: rem(46);
+  line-height: 120%;
+  letter-spacing: rem(-2);
+}
+
+@mixin text-preset-2 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 700;
+  font-size: rem(40);
+  line-height: 120%;
+  letter-spacing: rem(-0.3);
+}
+
+@mixin text-preset-2-mobile {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 700;
+  font-size: rem(32);
+  line-height: 120%;
+  letter-spacing: rem(-0.3);
+}
+
+@mixin text-preset-3 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 700;
+  font-size: rem(32);
+  line-height: 140%;
+  letter-spacing: rem(-0.3);
+}
+
+@mixin text-preset-3-mobile {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 700;
+  font-size: rem(28);
+  line-height: 130%;
+  letter-spacing: rem(-0.3);
+}
+
+@mixin text-preset-4 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 600;
+  font-size: rem(24);
+  line-height: 140%;
+  letter-spacing: rem(0);
+}
+
+@mixin text-preset-4-regular {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 400;
+  font-size: rem(24);
+  line-height: 140%;
+  letter-spacing: rem(0);
+}
+
+@mixin text-preset-5 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 600;
+  font-size: rem(20);
+  line-height: 140%;
+  letter-spacing: rem(0);
+}
+
+@mixin text-preset-6 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 500;
+  font-size: rem(18);
+  line-height: 120%;
+  letter-spacing: rem(0);
+}
+
+@mixin text-preset-6-italic {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: rem(18);
+  line-height: 130%;
+  letter-spacing: rem(0);
+}
+
+@mixin text-preset-6-regular {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 400;
+  font-size: rem(18);
+  line-height: 140%;
+  letter-spacing: rem(-0.3);
+}
+
+@mixin text-preset-7 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 400;
+  font-size: rem(15);
+  line-height: 140%;
+  letter-spacing: rem(-0.3);
+}
+
+@mixin text-preset-8 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 600;
+  font-size: rem(13);
+  line-height: 100%;
+  letter-spacing: rem(0);
+}
+
+@mixin text-preset-9 {
+  font-family: 'Reddit Sans', sans-serif;
+  font-weight: 400;
+  font-size: rem(12);
+  line-height: 110%;
+  letter-spacing: rem(0);
+}
