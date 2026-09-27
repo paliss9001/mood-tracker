@@ -268,6 +268,7 @@ svg * {
   --amber-300: #FFD97C;
   /* Gradient */
   --light-gradient: linear-gradient(180deg, #f5f5ff 72.99%, #e0e0ff 100%);
+  --shadow: 0 8px 16px 0 rgba(32, 37, 41, 0.08);
 }
 
 body {
@@ -277,6 +278,104 @@ body {
 
 html {
   scrollbar-width: none;
+}
+
+.tile {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.75rem;
+  color: var(--neutral-900);
+  max-width: 33.125rem;
+  width: 100%;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 140%;
+  letter-spacing: -0.01875rem;
+  box-shadow: var(--shadow);
+}
+.info__header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.info__data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.info__image {
+  display: flex;
+  column-gap: 1.25rem;
+  align-items: start;
+}
+.info__upload-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.info__upload-button {
+  margin-top: 1rem;
+}
+.info__title {
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 140%;
+  letter-spacing: -0.01875rem;
+}
+.info__subtitle {
+  color: var(--neutral-600);
+}
+.info__input {
+  padding: 0.75rem 1rem;
+  color: var(--neutral-600);
+  border-radius: 0.625rem;
+  outline: none;
+  border: 2px solid var(--neutral-600);
+}
+.info__upload, .info__data {
+  margin-top: 0.5rem;
+}
+.info__upload-limits {
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 140%;
+  letter-spacing: -0.01875rem;
+  color: var(--neutral-600);
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 120%;
+  letter-spacing: 0rem;
+  color: var(--neutral-900);
+  border-radius: 0.5rem;
+  border: 1px solid var(--neutral-300);
+}
+.button--accent {
+  background-color: var(--blue-600);
+  color: #fff;
+  padding-block: 0.75rem;
+  font-family: "Reddit Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 120%;
+  letter-spacing: 0rem;
 }
 
 /*# sourceMappingURL=index.css.map */

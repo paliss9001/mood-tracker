@@ -1,0 +1,16 @@
+@use '../helpers/' as *;
+
+.button {
+  padding: rem(8) rem(16);
+  @include text-preset-6;
+  color: var(--neutral-900);
+  border-radius: rem(8);
+  border: 1px solid var(--neutral-300);
+
+  &--accent {
+    background-color: var(--blue-600);
+    color: #fff;
+    padding-block: rem(12);
+    @include text-preset-6;
+  }
+}
