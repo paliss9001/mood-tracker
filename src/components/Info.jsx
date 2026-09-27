@@ -1,8 +1,15 @@
+import { motion } from "motion/react";
 import defaultProfileImage from "/assets/images/avatar-placeholder.svg";
 
 export default function Info({ title, subtitle, actionText }) {
   return (
-    <div className="info tile">
+    <div className="info-container container">
+    <motion.div
+      className="info tile"
+      initial={{y: -50, opacity: 0}}
+      animate={{y: 0, opacity: 1}}
+      transition={{duration: 1.2, type: "spring"}}
+    >
       <div className="info__header">
         <h1 className="info__title">{title}</h1>
         <span className="info__subtitle">{subtitle}</span>
@@ -27,6 +34,7 @@ export default function Info({ title, subtitle, actionText }) {
         </div>
       </div>
       <button className="button button--accent">{actionText}</button>
+    </motion.div>
     </div>
   );
 }

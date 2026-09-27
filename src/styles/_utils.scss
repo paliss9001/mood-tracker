@@ -3,7 +3,18 @@
 .container {
     max-width: rem(1440);
     margin-inline: auto;
-    padding-inline: rem(12)
+    padding-inline: rem(12);
+
+}
+
+.container-modal {
+    max-width: rem(1440);
+    margin-inline: auto;
+    padding-inline: rem(12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: rem(50)
 }
 
 .visually-hidden {

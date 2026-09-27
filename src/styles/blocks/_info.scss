@@ -1,7 +1,6 @@
 @use '../helpers/' as *;
 
 .info {
-  @include abs-center;
   display: flex;
   flex-direction: column;
   row-gap: rem(28);
@@ -10,7 +9,8 @@
   width: 100%;
   @include text-preset-6-regular;
   box-shadow: var(--shadow);
-
+  // @include abs-center;
+  
   &__header {
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@
     color: var(--neutral-600);
     border-radius: rem(10);
     outline: none;
-    border: 2px solid var(--neutral-600);
+    border: 2px solid var(--neutral-300);
   }
 
   &__upload, &__data {
